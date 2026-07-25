@@ -37,3 +37,7 @@ const taskRoutes =
 require("./routes/taskRoutes");
 
 app.use("/api/tasks", taskRoutes);
+
+const userRoutes = require("./routes/userRoutes");
+
+app.use("/api", userRoutes);

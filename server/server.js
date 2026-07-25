@@ -9,7 +9,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "https://mern-task-manager-jade-three.vercel.app/",
+  origin: "https://mern-task-manager-jade-three.vercel.app",
   credentials: true
 }));app.use(express.json());
 
